@@ -10,7 +10,7 @@ local ScoreboardService = Knit.CreateService {
     scoreboard = {},
 }
 
-local ROUND_WIN_KILL_AMOUNT = 2
+local ROUND_WIN_KILL_AMOUNT = 25
 local boardFields = {Kill = 0, Death = 0}
 
 function ScoreboardService.IncreaseScore(playerUserId: number, scoreName: string)

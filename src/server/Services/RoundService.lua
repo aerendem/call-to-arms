@@ -19,8 +19,8 @@ local RoundService = Knit.CreateService {
 }
 
 local ROUND_PLAYER_REQUIREMENT = 1
-local MAP_VOTE_MAP_COUNT = 3
-local MAP_VOTING_INTERVAL = 2
+local MAP_VOTE_MAP_COUNT = 10
+local MAP_VOTING_INTERVAL = 5
 
 local mapVoteData = {
     --mapName = {Players voted for}

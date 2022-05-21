@@ -17,7 +17,7 @@ local WeaponService = Knit.CreateService {
     };
 }
 
-local EXPLOSION_RADIUS
+local EXPLOSION_RADIUS = 15
 
 local function CreateMotor6D(character)
     local M6D = Instance.new("Motor6D")
