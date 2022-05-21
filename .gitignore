@@ -39,3 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
+# Roblox place files
+*.rbxl
+*.rbxl.lock
+
